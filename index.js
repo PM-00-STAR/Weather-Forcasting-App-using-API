@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var URL1 = "https://api.weather.gov/points/37,-99";
+  var URL1 = "https://api.weather.gov/points/36,-99";
   $.getJSON(URL1, function (data1) {
     updateDOM(data1);
   });
